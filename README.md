@@ -1,24 +1,12 @@
-# SwitchRoot-Magisk-Q
-
+# SwitchRoot-Q-Overclock
+**Warning! Using this overclock will degrade your battery faster than the normal performance mode overclock @ 1.75ghz! Emulators will run better though :)**
 ## Introduction
-
-**This repository contains magisk patched boot.img's for the switchroot-Q project along with their respective tegra210-icosa.dtb's**<br />
+**This repository contains 4 images for the switchroot Q release. A stock boot.img, an overclocked boot.img @ 2.09ghz, and 2 magisk patched images. Magisk 21.3 and up can just be flashed in TWRP so these magisk patched images won't be here for long.**<br />
 
 ## Installation
-
-If you wish to patch your own boot.img, follow `Patch Boot.img`<br />
-If you wish to use the files that I have provided here to boot Magisk on your switchroot-Q installation, follow `Flash Images`<br />
-
-**Patch Boot.img**<br /> You will need your own boot.img. You can either get this from your lineage.zip or from `out/target/product/rom/boot.img`<br />
-1. Boot Android & install the latest Magisk Manager APK [Latest Here](https://github.com/topjohnwu/Magisk/releases)
-2. Plug your switch in and move your boot.img to your downloads folder
-3. Open Magisk Manager > Settings Icon > Update Channel > Beta
-4. Press Install next to Magisk > Enable RecoveryMode in options > Select and Patch a File > Select your boot.img
-5. Boot TWRP & flash the `magisk_patched.img` to your boot partition 
-
 **Flash Images**
-1. Place `boot_nOC_patched.img &  tegra210-icosa-nOC.dtb` or `boot_OC_patched.img &  tegra210-icosa-OC.dtb` in switchroot/install on your switchroot partitioned sd card.<br />
-2. Rename the boot image to `boot.img` & the DTB to `tegra210-icosa.dtb`
+1. Place `boot_OC.img` in switchroot/install on your switchroot partitioned sd card.<br />
+2. Rename the boot image of your choosing to `boot.img`
 3. Boot Hekate
 4. Navigate to Partition SD card and press `Flash Android`
-5. Boot switchroot and enjoy root access!
+5. Boot switchroot, enable Performance mode & enjoy your overclock!
