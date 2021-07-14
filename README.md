@@ -12,6 +12,6 @@ These zips are for May 10th's Switchroot OTA . If your current switchroot versio
 Magisk zips have been removed since they have become useless
 
 ## Installation
-1. Flash `2091 OC*.zip` or `2091 Dock OC*.zip` in TWRP
+1. Flash `2091 OC*.zip`in TWRP
 2. Boot switchroot, enable Performance Mode & enjoy your overclock!
 (Settings > System > Advanced > Display and Performance Configuration > Performance Mode)
