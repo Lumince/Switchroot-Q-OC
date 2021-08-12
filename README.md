@@ -4,10 +4,10 @@
 
 ## Introduction
 **This repository contains a TWRP flashable zip that has an overclocked boot.img and an edited power profile to enable a 2.09ghz overclock.**<br />
-These zips are for May 10th's Switchroot OTA . If your current switchroot version is newer than May 10th, do not flash these zips
+**2091 OC - May 10th.zip** is for the **May 10th** SwitchRoot Android 10 Build<br />
+**2091 OC - Aug 12th-dev.zip** is for the **August 12th** SwitchRoot Android 10 Dev Build
 
-2091 OC will overclock in both handheld and dock
-2091 Dock OC will only overclock while in the dock
+2091 OC will overclock in both handheld and dock. Earlier Dock Only zips no longer work...
 
 Magisk zips have been removed since they have become useless
 
