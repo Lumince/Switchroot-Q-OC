@@ -1,6 +1,7 @@
 # SwitchRoot-Q-Overclock
 **WARNING!**<br />
 **OVERCLOCKING TO 2.09ghz ACCELERATES BATTERY DEGRADATION GREATLY**
+**LIKE OTHER OC SCENARIOS, THIS WILL DEGRADE YOUR CPU FASTER**
 
 ## Introduction
 **This repository contains a TWRP flashable zip that has an overclocked boot.img and an edited power profile to enable a 2.09ghz overclock.**<br />
