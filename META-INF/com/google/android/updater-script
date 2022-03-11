@@ -1,0 +1,10 @@
+ui_print("Switchroot Q 2091 Overclock"); 
+ui_print("Made By Lumince");
+ui_print("If you got this from anywhere other than my github, don't trust it ;P");
+
+ui_print("Flashing power profiles");
+run_program("/sbin/toybox", "mount", "/vendor");
+package_extract_dir("vendor", "/vendor");
+ui_print("Flashing oc boot.img");
+package_extract_file("boot.img", "/dev/block/LNX");
+unmount("/vendor");
