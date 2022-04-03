@@ -5,11 +5,12 @@
 
 ## Introduction
 **This repository contains TWRP flashable zips for Overclocking your CPU & RAM to clocks higher than SwitchRoots Performance Mode**<br />
-**I will also include uninstaller flashable zips so you can go back to stock clock speeds if you have issues**
+**I will also include uninstaller flashable zips so you can go back to stock clock speeds if you have issues**<br />
+**These kernels are built using the official [LineageOS](https://github.com/LineageOS/android) and [Switchroot](https://gitlab.com/switchroot/android) sources**
 
 ## Flashable Zips
 **This is just an explanation on what each zip has/does**<br />
-**(Please use the date that matches your build date)**<br />
+**(As of this commit, the zips have been updated for the April 3rd 2022 SwitchRoot Release)**<br />
 * OC Uninstaller.zip
     * This will flash a non-overclocked boot.img, coreboot.rom, and power profile
 	
