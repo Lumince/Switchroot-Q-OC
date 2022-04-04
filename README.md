@@ -10,7 +10,7 @@
 
 ## Flashable Zips
 **This is just an explanation on what each zip has/does**<br />
-**(As of this commit, the zips have been updated for the April 3rd 2022 SwitchRoot Release)**<br />
+**(As of this commit, the zips have been updated for the April 4th 2022 SwitchRoot Release)**<br />
 * OC Uninstaller.zip
     * This will flash a non-overclocked boot.img, coreboot.rom, and power profile
 	
