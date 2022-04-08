@@ -1,10 +1,16 @@
-ui_print("Switchroot Q 2091 Overclock"); 
-ui_print("Made By Lumince");
-ui_print("If you got this from anywhere other than my github, don't trust it ;P");
+ifelse(is_mounted("/system_root"),unmount("/system_root"));
+ifelse(is_mounted("/vendor"),unmount("/vendor"));
 
-ui_print("Flashing power profiles");
-run_program("/sbin/toybox", "mount", "/vendor");
+ui_print("Switchroot Q 2091 Overclock");
+ui_print("Made By Lumince");
+ui_print("April 8th Release ONLY!");
+
+ui_print("Mounting partitions");
+mount("ext4","EMMC","/dev/block/by-name/vendor","/vendor");
+
+ui_print("Extracting Power Profiles");
 package_extract_dir("vendor", "/vendor");
-ui_print("Flashing oc boot.img");
-package_extract_file("boot.img", "/dev/block/LNX");
+ui_print("Flashing OC boot.img");
+package_extract_file("boot.img", "/boot");
+
 unmount("/vendor");
