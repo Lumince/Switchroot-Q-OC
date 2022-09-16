@@ -11,11 +11,6 @@
 ## Flashable Zips
 **This is just an explanation on what each zip has/does**<br />
 **(As of this commit, the zips have been updated for the April 8th 2022 SwitchRoot Release)**<br />
-* 1887 OC.zip
-    * This will flash an overclocked boot.img and edited power profile to enable a 1.887ghz overclock
-	
-* 1989 OC.zip
-    * This will flash an overclocked boot.img and edited power profile to enable a 1.989ghz overclock
 
 * 2091 OC.zip
     * This will flash an overclocked boot.img and edited power profile to enable a 2.091ghz overclock
