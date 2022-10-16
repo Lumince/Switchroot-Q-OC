@@ -17,8 +17,11 @@
 
 * OC Uninstaller.zip
     * This will uninstall the overclocked boot.img, coreboot.rom, and power profiles
-	
-These zips will overclock in both handheld and dock.
+
+* Switchroot-Bootanimation.zip
+    * This is a custom Switch boot animation made by MakinBacon!
+    
+The OC zip will overclock in both handheld and dock.
 
 ## CPU OC Installation
 1. Flash the OC zip of your choice in TWRP (HOLD VOL+ while booting android)
