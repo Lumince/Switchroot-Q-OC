@@ -40,4 +40,4 @@ If you haven't already flashed [**Magisk**](https://github.com/topjohnwu/Magisk/
 1. Flash the Switchroot-Bootanimation.zip in TWRP (HOLD VOL+ while booting android)
 2. Boot Switchroot! Now you have the custom boot animation made by MakinBacon!
 
-[Here](https://cdn.discordapp.com/attachments/769349427948158976/975901552726405130/20220501_204904.mp4) is a rough video of what it looks like!
+[Here](https://cdn.discordapp.com/attachments/674462444583780362/1059150663365443584/Erista.mp4) is a video of what the Erista boot animation looks like!
